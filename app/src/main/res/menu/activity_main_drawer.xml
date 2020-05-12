@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_0"
+            android:icon="@drawable/ic_do_not_disturb_on_black"
+            android:title="Danh Sách biển báo" />
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/ic_do_not_disturb_on_black"
+            android:title="Quét Biển Báo" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/ic_do_not_disturb_on_black"
+            android:title="Cài Đặt" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/ic_do_not_disturb_on_black"
+            android:title="error" />
+        <item
+            android:id="@+id/nav_4"
+            android:icon="@drawable/ic_do_not_disturb_on_black"
+            android:title="error" />
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@drawable/ic_do_not_disturb_on_black"
+            android:title="error" />
+        <item
+            android:id="@+id/nav_6"
+            android:icon="@drawable/ic_do_not_disturb_on_black"
+            android:title="error" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_11"
+                android:icon="@drawable/ic_do_not_disturb_on_black"
+                android:title="Đăng nhập" />
+        </menu>
+    </item>
+
+</menu>

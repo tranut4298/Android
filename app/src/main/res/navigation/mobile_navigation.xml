@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_0"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/nav_0"
+        android:name="com.example.test_20200424_version_100.ui.A.AFragment"
+        android:label="Biển Báo Giao Thông 2020"
+        tools:layout="@layout/fragment_a" />
+    <fragment
+        android:id="@+id/nav_1"
+        android:name="com.example.test_20200424_version_100.ui.B.BFragment"
+        android:label="Biển Báo Giao Thông 2020"
+        tools:layout="@layout/fragment_b" />
+    <fragment
+        android:id="@+id/nav_2"
+        android:name="com.example.test_20200424_version_100.ui.C.CFragment"
+        android:label="Biển Báo Giao Thông 2020"
+        tools:layout="@layout/fragment_c" />
+    <fragment
+        android:id="@+id/nav_3"
+        android:name="com.example.test_20200424_version_100.ui.D.DFragment"
+        android:label="Biển Báo Giao Thông 2020"
+        tools:layout="@layout/fragment_d" />
+    <fragment
+        android:id="@+id/nav_4"
+        android:name="com.example.test_20200424_version_100.ui.E.EFragment"
+        android:label="Biển Báo Giao Thông 2020"
+        tools:layout="@layout/fragment_e" />
+    <fragment
+        android:id="@+id/nav_5"
+        android:name="com.example.test_20200424_version_100.ui.F.FFragment"
+        android:label="Biển Báo Giao Thông 2020"
+        tools:layout="@layout/fragment_f" />
+    <fragment
+        android:id="@+id/nav_6"
+        android:name="com.example.test_20200424_version_100.ui.G.GFragment"
+        android:label="Biển Báo Giao Thông 2020"
+        tools:layout="@layout/fragment_g" />
+</navigation>

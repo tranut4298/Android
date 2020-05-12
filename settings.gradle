@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='TEST_20200424_version_1.0.0'

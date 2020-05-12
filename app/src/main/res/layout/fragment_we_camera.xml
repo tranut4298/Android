@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.B.BFragment"
+    android:background="@color/colorDark">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageViewC1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@null"
+        android:background="@drawable/new_border_2" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewC2"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@+id/imageViewC1"-->
+<!--        android:layout_marginStart="55dp"-->
+<!--        android:layout_marginLeft="55dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:background="@drawable/new_shadow"-->
+<!--        android:contentDescription="@null"-->
+<!--        android:src="@drawable/ic_folder_open_black" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewC3"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@+id/imageViewC1"-->
+<!--        android:layout_marginStart="40dp"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_toEndOf="@+id/imageViewC2"-->
+<!--        android:layout_toRightOf="@+id/imageViewC2"-->
+<!--        android:background="@drawable/new_shadow"-->
+<!--        android:contentDescription="@null"-->
+<!--        android:src="@drawable/ic_camera_black" />-->
+
+</RelativeLayout>

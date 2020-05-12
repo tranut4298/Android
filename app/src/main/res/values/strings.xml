@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Biển Báo Giao Thông 2020</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //--Bieb bao
+    <string name="tcbb">    Tất Cả Biển Báo       </string>
+    <string name="bbc">     Biển Báo Cấm          </string>
+    <string name="bbnh">    Biển Báo Nguy Hiểm    </string>
+    <string name="bbhl">    Biển Báo Hiệu Lệnh    </string>
+    <string name="bbcd">    Biển Báo Chỉ Dẫn      </string>
+    <string name="bbp">     Biển Báo Phụ          </string>
+    <string name="vkd">     Vạch Kẻ Đường         </string>
+    //--
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    //--Layout
+    <string name="tittle">Biển Báo Giao Thông 2020</string>
+    <string name="mail_bb">bienbaogiathong@gmail.com"</string>
+    <string name="text">- Text</string>
+</resources>

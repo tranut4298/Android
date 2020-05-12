@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.B.BFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageViewD1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/new_border_2"
+        android:contentDescription="@null"
+        android:padding="10dp"
+        android:src="@drawable/a13" />
+
+    <ImageView
+        android:id="@+id/imageViewD2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageViewD1"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/new_shadow"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_folder_open_black" />
+
+    <ImageView
+        android:id="@+id/imageViewD3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageViewC1"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageViewD2"
+        android:layout_toRightOf="@+id/imageViewD2"
+        android:background="@drawable/new_shadow"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_camera_black" />
+
+    <Button
+        android:id="@+id/buttonC4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewD1"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/imageViewD3"
+        android:layout_toRightOf="@+id/imageViewD3"
+        android:background="@drawable/new_radius"
+        android:padding="15dp"
+        android:text="Kiểm Tra"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
